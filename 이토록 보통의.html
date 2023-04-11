@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8" />
+<style>
+    body {background-image: url(./이보통/i.jpg); background-size:cover;}
+  ul { background: #c9dbf1;  padding: 6px;} 
+  li { display: inline;  padding: 10px 20px; }
+  li a { color: black;  text-decoration: none;  padding: 5px 10px; }  
+  li a:hover { background: white;   }
+
+  li.dropdown { display: inline-block; }
+
+  .dropdown-content { display: none;  position: absolute;
+    background-color: ghostwhite;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);   
+  }
+
+  .dropdown-content a { display: block;  color: black; padding: 12px 16px;
+    text-decoration: none; text-align: left;
+  }
+
+  .dropdown-content a:hover {background-color: white;  } 
+  .dropdown:hover .dropdown-content { display: block; }
+
+  table { table-layout: fixed;  width: 80%;
+             height : 200px;
+            border-collapse : collapse;   
+            border-top: 10px solid  #c9dbf1;                  
+            border-bottom: 10px solid #c9dbf1;  
+            background: #fcfcfc; border-left: #fcfcfc;
+            border-right: #fcfcfc; }       
+      th { border-bottom: 5px solid #e3e2ea; } 
+      td { text-align: center;          
+           border: 2px dotted #d5cada; } 
+      .c0 { border-left: #fcfcfc; }
+      .c4 { border-right: #fcfcfc; }
+      tr:first-child { background: #fcfcfc; } 
+      tr:hover { background: #DDE7F6; }        
+
+  #dropdown1:hover .dropdown-content { display: block; }
+  #dropdown2:hover .dropdown-content { display: block; }
+
+   #b1 { background : #fcfcfc; border: 2px #c9dbf1 solid; } 
+
+    .desc { padding: 15px; text-align: center; }
+</style>
+</head>
+<body>
+<h3><img src = "./이보통/i.png"width=400 height=80/></h3><hr> 
+<ul>
+  <li class="dropdown">
+    <a href="" class="dropbtn">뮤지컬</a>
+    <div class="dropdown-content">
+      <a href="이토록 보통의.html">이토록 보통의</a> <a href="사의찬미.html">사의찬미</a> <a href="해적.html">해적</a> <a href="미아파밀리아.html">미아 파밀리아</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="" class="dropbtn">연극</a>
+    <div class="dropdown-content">
+       <a href="언체인.html">언체인</a>
+    </div>
+  </li>
+</ul>
+ <div style="height: auto;"> 
+  <pre> 
+   <h3>어느 밤 그녀가 우주에서<h3>
+<img src = "./이보통/이보통.jpg"width=300 height=400/>
+    <hr>
+   <h3>출연진 소개</h3>
+<table border="1"><caption></caption>
+<tr><td rowspan=2>제이</td><td><img src = "./이보통/최연우.jpg"width=100 height=100/></td><td><img src = "./이보통/이예은.jpg"width=100 height=100/></td></tr>
+<tr><td>최연우</td><td>이예은</td></tr>
+<tr><td rowspan=2>은기</td><td><img src = "./이보통/정욱진.jpg"width=100 height=100/></td><td><img src = "./이보통/정휘.jpg"width=100 height=100/></td><td><img src = "./이보통/성두섭.jpg"width=100 height=100/></td></tr>
+<tr><td>정욱진</td><td>정휘</td><td>성두섭</td></tr>
+</table>
+<hr>
+ <h3>줄거리</h3>
+우주비행사를 꿈꾸는 <b>제이</b>와 그녀를 사랑하는 <b>은기</b>, 제이는 자신의 꿈을 위해 1년간 우주비행을 떠나려한다.<br>
+은기는 그 긴 시간을 받아들일 수 없다. 상처를 안은 채 돌아선 은기는 사고를 당하고, 제이는 우주비행을 포기한 채 그의 곁에 머물게 된다.<br>
+<strong>1년 후 어느날, 진짜 제이가 우주여행을 마치고 돌아오게 되면서 자신의 옆에 머물렀던 것이 복제된 제이라는 것을 알게 되는 은기.<br></strong>
+<b>자신이 진짜 사랑했던 것이 누구인지 혼란스러워 하는데...</b>
+<hr>
+<h3>[하이라이트]</h3>
+<video src="./이보통/이보통.mp4" controls loop width="400" height ="300">
+</video>
+<hr>
+<ul>
+ <li>개인적으로 뽑은 제일 좋았던 넘버 best3</li>
+<ol>
+<li><a href="https://www.youtube.com/watch?v=Jf5RpOtoRgI"> 도시위에</a> <audio src="./이보통/도시 위에서  - 최연우, 정휘.m4a" controls loop volume=0.6></audio> <br></li>
+<li><a href="https://www.youtube.com/watch?v=TxgzjP98FLw&t=51s"> 니스</a><audio src="./이보통/니스 - 최연우, 정휘.m4a" controls loop volume=0.3></audio><br> </li>
+<li><a href="https://www.youtube.com/watch?v=V4-vBqPRLFQ&t=247s"> 만약의 우리가</a><audio src="./이보통/만약의 우리가 - 이예은, 정욱진.m4a" controls loop volume=0.2></audio></li>
+</ol>
+</ul>
+
+<h3>[커튼콜 사진]</h3>
+<div class="dropdown" id="dropdown1">
+  <img src="./이보통/처음다시.jpg"  class="image1" alt="처음다시" width="100" height="60">
+  <div class="dropdown-content">
+    <img src="./이보통/처음다시.jpg" alt="처음다시" width="500" height="300">
+    <div class="desc">은기- 성두섭, 제이 - 이예은</div>
+  </div>  
+</div>
+
+<div class="dropdown" id="dropdown2">
+  <img src="./이보통/은기제이.jpg" class="image1" alt="은기제이" width="100" height="60">
+  <div class="dropdown-content">
+    <img src="./이보통/은기제이.jpg" alt="은기제이" width="500" height="300">
+    <div class="desc">은기 - 정욱진, 제이 - 이예은</div>  
+  </div>
+</div>
+<hr>
+<table border="1"><caption>SCHEDULE</caption>
+<tr><td>일자</td><td>요일</td><td>시간</td><td>제이</td><td>은기</td></tr>
+<tr><td>10/29</td><td>화</td><td>8시</td><td>최연우</td><td>정욱진</td></tr>
+<tr><td>10/30</td><td>수</td><td>8시</td><td>최연우</td><td>정휘</td></tr>
+<tr><td>10/31</td><td>목</td><td>8시</td><td>이예은</td><td>정욱진</td></tr>
+<tr><td>11/1</td><td>금</td><td>8시</td><td>이예은</td><td>성두섭</td></tr>
+<tr><td>11/2</td><td>토</td><td>3시</td><td>이예은</td><td>성두섭</td></tr>
+<tr><td>11/2</td><td>토</td><td>6시 30분</td><td>이예은</td><td>성두섭</td></tr>
+<tr><td>11/3</td><td>일</td><td>2시</td><td>최연우</td><td>정휘</td></tr>
+<tr><td>11/3</td><td>일</td><td>5시 30분</td><td>최연우</td><td>정휘</td></tr>
+</table>
+<hr>
+<div id="b1"><a href="index.html">끝이라 생각한 순간 다시 마지막이었던 순간 '처음'으로</a></div>  
+  </pre>  
+ </div> 
+  
+</body>
+</html>

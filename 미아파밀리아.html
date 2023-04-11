@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8" />
+<style>
+   body {background-image: url(./미아/mia.jpg);}
+  ul { background: #d3c28d;  padding: 6px;} 
+  li { display: inline;  padding: 10px 20px; }
+  li a { color: black;  text-decoration: none;  padding: 5px 10px; }  
+  li a:hover { background: #beae7b;   }
+
+  li.dropdown { display: inline-block; }
+
+  .dropdown-content { display: none;  position: absolute;
+    background-color: ghostwhite;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);   
+  }
+
+  .dropdown-content a { display: block;  color: black; padding: 12px 16px;
+    text-decoration: none; text-align: left;
+  }
+
+  .dropdown-content a:hover {background-color: lavender;  } 
+  .dropdown:hover .dropdown-content { display: block; }
+
+  table { table-layout: fixed;  width: 80%;
+             height : 200px;
+            border-collapse : collapse;   
+            border-top: 10px solid  #d3c28d;                  
+            border-bottom: 10px solid #d3c28d;  
+            background: #e9d69b; border-left: #e9d69b;
+            border-right: e9d69b; }       
+      th { border-bottom: 5px solid #e9d69b; } 
+      td { text-align: center;          
+           border: 1px dotted red; } 
+      .c0 { border-left: #e9d69b; }
+      .c4 { border-right: #e9d69b; }
+      tr:first-child { background: #e9d69b; } 
+      tr:hover { background: white; }        
+ 
+ #dropdown1:hover .dropdown-content { display: block; }
+  #dropdown2:hover .dropdown-content { display: block; }
+
+    #b1 { background : #e9d69b; border: 5px #d3c28d; solid; } 
+
+</style>
+</head>
+<body>
+<h3> <img src = "./미아/mi.png"width=450 height=80/></h3><hr> 
+<ul>
+  <li class="dropdown">
+    <a href="" class="dropbtn">뮤지컬</a>
+    <div class="dropdown-content">
+      <a href="이토록 보통의.html">이토록 보통의</a> <a href="사의찬미.html">사의찬미</a> <a href="해적.html">해적</a> <a href="미아파밀리아.html">미아 파밀리아</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="" class="dropbtn">연극</a>
+    <div class="dropdown-content">
+       <a href="언체인.html">언체인</a>
+    </div>
+  </li>
+ </ul>
+ <div style="height: auto;"> 
+  <pre> 
+   <h3><i>아무것도 후회하지 않겠다. Mia Famiglia</i><h3>
+<img src = "./미아/미아 파밀리아.gif"width=300 height=400/>
+    <hr>
+   <h3>출연진 소개</h3>
+<table border="1"><caption></caption>
+<tr><td rowspan=2>리차드</td><td><img src = "./미아/샧.jpg"width=100 height=150/></td><td><img src = "./미아/또.jpg"width=100 height=150/></td><td><img src = "./미아/꾹.jpg"width=100 height=150/></td></tr>
+<tr><td>이승현</td><td>김도빈</td><td>권용국</td></tr>
+<tr><td rowspan=2>오스카</td><td><img src = "./미아/윱.jpg"width=100 height=150/></td><td><img src = "./미아/풍.jpg"width=100 height=150/></td><td><img src = "./미아/용.jpg"width=100 height=150/></td></tr>
+<tr><td>유성재</td><td>조풍래</td><td>안창용</td></tr>
+<tr><td rowspan=2>스티비</td><td><img src = "./미아/규.jpg"width=100 height=150/></td><td><img src = "./미아/슈.jpg"width=100 height=150/></td><td><img src = "./미아/별.jpg"width=100 height=150/></td></tr>
+<tr><td>허규</td><td>박영수</td><td>박규원</td></tr>
+</table>
+<hr>
+ <h3>줄거리</h3>
+<i>1930년대 대공황시대 뉴욕</i>, 실업자는 급증하고 금주령에도 불구하고 사람들은 더욱더 술을 찾는 황량한 도시<br>
+가난한 이탈리아 노동자들의 삶을 위로하는 아폴로니아 인앤바<i>(Apollonia Inn&Bar)</i>는 마피아의 손에 넘어가 <br>
+내일이면 문을 닫아야 하고 '아폴로니아'에 남은 최후의 보드빌 대우 <b>'리차드'</b>와 <b>'오스카'</b>는<br>
+마지막 레퍼토리 공연 <b>'브루클린 브릿지'</b>의 전설을 준비한다. <br>
+<b>'리차드'</b>는 마지막 공연 준비에 심혈을 기울이지만, <b>'오스카'</b>는 공연보다 내일 있는 결혼 준비에 정신이 팔려있다.<br>
+이때, 마피아 패밀리의 솔져 <b>'스티비'</b>가 들이닥치고 마피아 보스의 자서전 <b>'미아 파밀리아'</b>를 오늘 밤 당장 공연하라고 협박하는데...<br>
+<hr>
+<h3>[하이라이트]</h3>
+<video src="./미아/미아하이라이트.mp4" controls loop width="400" height ="300">
+</video>
+<hr>
+<h3>[커튼콜 사진]</h3>
+<div class="dropdown" id="dropdown1">
+  <img src="./미아/미아1.jpg"  class="image1" alt="미아파밀리아" width="100" height="60">
+  <div class="dropdown-content">
+    <img src="./미아/미아1.jpg" alt="미아파밀리아" width="500" height="300">
+    <div class="desc">리차드-권용국, 오스카-안창용, 스티비-박영수</div>
+  </div>  
+</div>
+
+<div class="dropdown" id="dropdown2">
+  <img src="./미아/꾹2.jpg" class="image1" alt="리차드" width="100" height="60">
+  <div class="dropdown-content">
+    <img src="./미아/꾹2.jpg" alt="리차드" width="500" height="300">
+    <div class="desc">리차드 - 권용국</div>  
+  </div>
+</div>
+<ul>
+ <li>개인적으로 뽑은 제일 좋았던 넘버 best3 </li>
+<ol>
+<li><a href="https://www.youtube.com/watch?v=hX3hJStem3Y"> 1. 카더라</a> <br></li>
+<li><a href="https://www.youtube.com/watch?v=FfBeAaAbxAU"> 2. 선물 사 오신대</a><br> </li>
+<li><a href="https://www.youtube.com/watch?v=emU4Rc66YoY"> 3. 술의 기원</a></li>
+</ol>
+</ul>
+<hr> </div>
+     <div id="b1"><a href="index.html">우린 전설이 되는거야.</a> </div> 
+  </pre>  
+</body>
+</html>

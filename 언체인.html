@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8" />
+<style>
+    body {background-image: url(./언체인/un.jpg);}
+  ul { background: #6E6E6E;  padding: 6px;} 
+  li { display: inline;  padding: 10px 20px; }
+  li a { color: black;  text-decoration: none;  padding: 5px 10px; }  
+  li a:hover { background: white;   }
+
+  li.dropdown { display: inline-block; }
+
+  .dropdown-content { display: none;  position: absolute;
+    background-color: ghostwhite;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);   
+  }
+
+  .dropdown-content a { display: block;  color: black; padding: 12px 16px;
+    text-decoration: none; text-align: left;
+  }
+
+  .dropdown-content a:hover {background-color: white;  } 
+  .dropdown:hover .dropdown-content { display: block; }
+
+  table { table-layout: fixed;  width: 80%;
+             height : 200px;
+            border-collapse : collapse;   
+            border-top: 10px solid  #6E6E6E;                  
+            border-bottom: 10px solid #6E6E6E;  
+            background: #2E2E2E; border-left: #2E2E2E;
+            border-right: #2E2E2E; }       
+      th { border-bottom: 5px solid red; } 
+      td { text-align: center;          
+           border: 1px dotted red; } 
+      .c0 { border-left: #2E2E2E; }
+      .c4 { border-right: #2E2E2E; }
+      tr:first-child { background: #2E2E2E; } 
+      tr:hover { background: black; }        
+
+  #dropdown1:hover .dropdown-content { display: block; }
+  #dropdown2:hover .dropdown-content { display: block; }
+  #s1{color : white;}
+
+   #b1 { background : #6E6E6E; border: 2px #2E2E2E solid; } 
+
+  .desc { padding: 15px; text-align: center; }
+</style>
+</head>
+<body>
+<h3><img src = "./언체인/un.png"width=250 height=80/></h3><hr>  
+<ul>
+  <li class="dropdown">
+    <a href="" class="dropbtn">뮤지컬</a>
+    <div class="dropdown-content">
+      <a href="이토록 보통의.html">이토록 보통의</a> <a href="사의찬미.html">사의찬미</a> <a href="해적.html">해적</a> <a href="미아파밀리아.html">미아 파밀리아</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="" class="dropbtn">연극</a>
+    <div class="dropdown-content">
+       <a href="언체인.html">언체인</a>
+    </div>
+  </li>
+</ul>
+ <div style="height: auto;"> 
+  <pre> 
+ <span id ="s1">  <h3><i>아직도 당신의 죄를 모르겠어요?</i><h3>
+<img src = "./언체인/언체인.gif"width=300 height=400/>
+    <hr>
+   <h3>출연진 소개</h3>
+<table border="1"><caption></caption>
+<tr><td rowspan=2>마크</td><td><img src = "./언체인/안유진.jpg"width=100 height=120/></td><td><img src = "./언체인/정성일.jpg"width=100 height=120/></td><td><img src = "./언체인/김유진.jpg"width=100 height=120/></td><td><img src = "./언체인/이강우.jpg"width=100 height=120/></td></tr>
+<tr><td>안유진</td><td>정성일</td><td>김유진</td><td>이강우</td></tr>
+<tr><td rowspan=2>싱어</td><td><img src = "./언체인/정인지.jpg"width=100 height=120/></td><td><img src = "./언체인/최석진.jpg"width=100 height=120/></td><td><img src = "./언체인/홍승안.jpg"width=100 height=120/></td><td><img src = "./언체인/신재범.jpg"width=100 height=120/></td></tr>
+<tr><td>정인지</td><td>최석진</td><td>홍승안</td><td>신재범</td></tr>
+</table>
+<hr>
+ <h3>줄거리</h3>
+벽난로의  불이 타오르는 지하실.<br>
+납치된듯 결박된 남자가 눈을 뜬다. <br>
+<h4>'당신이 지은 죄를 고백해 봐요."</h4><br>
+정체를 드러내지 않는 누군가가 남자에게 죄를 고백하라 이르고,<br>
+남자는 결백을 주장하며 상대의 정체를 묻는다.<br>
+하지만 그 상대는 자신이 누군지조차 기억을 잃은 듯 혼란스러워 하는데...<br>
+결박된 남자는 그가 잃어버린 기억의 실체를 알고 있는 듯 몰아세우기 시작한다.<br>
+<br>
+서로의 질문은 대답 없이 반복되고, <br>
+극단의 상황에서 목숨을 내건 협박으로 이어진다.<br>
+두 사람은 감추고 있던 비밀들을 꺼내기 시작하고, <br>
+밝혀지는 사건의 파편들 속에서 조각난 기억들이 맞춰져 간다.<br>
+<hr> 
+<h3>[커튼콜 사진]</h3></span> 
+<div class="dropdown" id="dropdown1">
+  <img src="./언체인/안유진2.jpg"  class="image1" alt="마크" width="100" height="150">
+  <div class="dropdown-content">
+    <img src="./언체인/안유진2.jpg" alt="마크" width="300" height="450">
+    <div class="desc">마크 - 안유진</div>
+  </div>  
+</div>
+
+<div class="dropdown" id="dropdown2">
+  <img src="./언체인/신재범2.jpg" class="image1" alt="싱어" width="120" height="80">
+  <div class="dropdown-content">
+    <img src="./언체인/신재범2.jpg" alt="싱어" width="500" height="350">
+    <div class="desc">싱어 - 신재범</div>  
+  </div>
+</div>
+<hr><span id ="s1">
+<table border="1"><caption>SCHEDULE</caption>
+<tr><td>일자</td><td>요일</td><td>시간</td><td>마크</td><td>싱어</td></tr>
+<tr><td>6/8</td><td>월</td><td>8시</td><td>이강우</td><td>최석진</td></tr>
+<tr><td>6/8</td><td>화</td><td colspan="3">공연없음</td></tr>
+<tr><td>6/10</td><td>수</td><td>4시</td><td>정성일</td><td>정인지</td></tr>
+<tr><td>6/10</td><td>수</td><td>8시</td><td>김유진</td><td>신재범</td></tr>
+<tr><td>6/11</td><td>목</td><td>8시</td><td>안유진</td><td>신재범</td></tr>
+<tr><td>6/12</td><td>금</td><td>8시</td><td>정성일</td><td>최석진</td></tr>
+<tr><td>6/13</td><td>토</td><td>3시</td><td>이강우</td><td>신재범</td></tr>
+<tr><td>6/13</td><td>토</td><td>7시</td><td>정성일</td><td>최석진</td></tr>
+<tr><td>6/14</td><td>일</td><td>2시</td><td>김유진</td><td>정인지</td></tr>
+<tr><td>6/14</td><td>일</td><td>6시</td><td>안유진</td><td>홍승안</td></tr>
+</table>
+<hr>
+<div id="b1"><a href="index.html">이번이 벌써 몇번째더라.</a></div>  
+ </span>  
+  </pre>  
+ </div> 
+</body>
+</html>

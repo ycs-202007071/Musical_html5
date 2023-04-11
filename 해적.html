@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8" />
+<style>
+    body {background-image: url(./해적/ha.jpg); background-size:cover;}
+  ul { background: #515a87;  padding: 6px;} 
+  li { display: inline;  padding: 10px 20px; }
+  li a { color: black;  text-decoration: none;  padding: 5px 10px; }  
+  li a:hover { background: #9199be;   }
+
+  li.dropdown { display: inline-block; }
+
+  .dropdown-content { display: none;  position: absolute;
+    background-color: ghostwhite;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);   
+  }
+
+  .dropdown-content a { display: block;  color: black; padding: 12px 16px;
+    text-decoration: none; text-align: left;
+  }
+
+  .dropdown-content a:hover {background-color: lavender;  } 
+  .dropdown:hover .dropdown-content { display: block; }
+
+  table { table-layout: fixed;  width: 80%;
+             height : 200px;
+            border-collapse : collapse;   
+            border-top: 10px solid  #515a87;                  
+            border-bottom: 10px solid #515a87;  
+            background: #9199be; border-left: #9199be;
+            border-right: #515a87; }       
+      th { border-bottom: 5px solid #515a87; } 
+      td { text-align: center;          
+           border: 2px dotted white; } 
+      .c0 { border-left: #9199be; }
+      .c4 { border-right: #9199be; }
+      tr:first-child { background: #9199be; } 
+      tr:hover { background: #b7bdd9; }        
+ 
+ #dropdown1:hover .dropdown-content { display: block; }
+  #dropdown2:hover .dropdown-content { display: block; }
+
+   #b1 { background : #9199be; border: 2px #515a87 solid; } 
+
+</style>
+</head>
+<body>
+<h3> <img src = "./해적/해적1.png"width=250 height=80/></h3><hr> 
+<ul>
+  <li class="dropdown">
+    <a href="" class="dropbtn">뮤지컬</a>
+    <div class="dropdown-content">
+      <a href="이토록 보통의.html">이토록 보통의</a> <a href="사의찬미.html">사의찬미</a> <a href="해적.html">해적</a> <a href="미아파밀리아.html">미아 파밀리아</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="" class="dropbtn">연극</a>
+    <div class="dropdown-content">
+       <a href="언체인.html">언체인</a>
+    </div>
+  </li>
+ </ul>
+ <div style="height: auto;"> 
+  <pre> 
+   <h3><i>해적 이야기를 쓰는 거야. 어떻게 쓰는 거지?</i><h3>
+<img src = "./해적/해적포스터.gif"width=300 height=400/>
+    <hr>
+   <h3>출연진 소개</h3>
+<table border="1"><caption></caption>
+<tr><td rowspan=2>루이스/앤</td><td><img src = "./해적/임찬민.jpg"width=100 height=150/></td><td><img src = "./해적/김순택.jpg"width=100 height=150/></td><td><img src = "./해적/백기범.jpg"width=100 height=150/></td></tr>
+<tr><td>임찬민</td><td>김순택</td><td>백기범</td></tr>
+<tr><td rowspan=2>잭/메리</td><td><img src = "./해적/랑연.jpg"width=100 height=150/></td><td><img src = "./해적/노윤.jpg"width=100 height=150/></td><td><img src = "./해적/현석준.jpg"width=100 height=150/></td></tr>
+<tr><td>랑연</td><td>노윤</td><td>현석준</td></tr>
+</table>
+<hr>
+ <h3>줄거리</h3>
+해적들이 드나드는 항구마을에 사는 루이스.<br>
+해적이었던 아버지가 죽은 후, 아버지의 친구였다고 주장하는 캡틴 잭이 찾아온다.<br>
+잭은 유품이나 유언이 없었는지 캐묻고, 루이스는 아무것도 없다고 대답한다.<br>
+아버지의 초라한 유품 중 하나가 보물섬 지도임을 알게 된 루이스는,<br>
+자신을 데려가지 않으면 지도에 대해 알려주지 않겠다고 버틴다.<br>
+잭은 어쩔 수 없이 루이스를 해적선에 태우고 출발한다.<br>
+보물섬으로 향하는 길에 명사수 앤과 검투사 메리가 그들의 일행이 된다.<br>
+긴 향해 끝에 도착한 보물섬에서 갑판장 하워드가 반란을 일으키고,<br>
+해적 헌터의 추격까지 받으며 잭의 해적선은 위기에 위기를 맞게 된다.<br>
+<hr>
+<h3>[하이라이트]</h3>
+<video src="./해적/해적하이라이트.mp4" controls loop width="400" height ="300">
+</video>
+<hr>
+<h3>[커튼콜 사진]</h3>
+<div class="dropdown" id="dropdown1">
+  <img src="./해적/찬.jpg"  class="image1" alt="루이스" width="100" height="120">
+  <div class="dropdown-content">
+    <img src="./해적/찬.jpg" alt="루이스" width="300" height="400">
+    <div class="desc">루이스/앤 - 임찬민</div>
+  </div>  
+</div>
+
+<div class="dropdown" id="dropdown2">
+  <img src="./해적/랑.jpg" class="image1" alt="잭" width="100" height="120">
+  <div class="dropdown-content">
+    <img src="./해적/랑.jpg" alt="잭" width="300" height="400">
+    <div class="desc">잭/메리 - 랑연</div>  
+  </div>
+</div>
+<ul>
+ <li>개인적으로 뽑은 제일 좋았던 넘버 best3 </li>
+<ol>
+<li><a href="https://www.youtube.com/watch?v=RgoscG-o7Oc"> 1. 우리 모두의, 기억나지 않는 꿈</a> <br></li>
+<li><a href="https://www.youtube.com/watch?v=nD0I5YVOqPc"> 2. 질투하라</a><br> </li>
+<li><a href="https://www.youtube.com/watch?v=PSdUg1ioafU"> 3. 기분 탓이야</a></li>
+</ol>
+</ul>
+<hr>
+<div id="b1"><a href="index.html">그리고 그곳에 해적들이 있었다.</a></div>     
+  </pre>  
+ </div> 
+</body>
+</html>
